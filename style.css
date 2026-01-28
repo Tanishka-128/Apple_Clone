@@ -1,0 +1,218 @@
+/* UNIVERSAL */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width:100%;
+}
+@font-face {
+    font-family: apple;
+    src: url(sf-pro-text_regular.woff2);
+}
+
+
+/* MAIN */
+
+#main{
+    background-color: rgb(0, 0, 0);
+    height:100%;
+    width:100%;
+}
+
+
+/* MAIN cha NAV */
+
+#main #nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    position:fixed;
+    top:0%;
+    height: 8%;
+    width:100%;
+    background-color: rgb(48, 44, 44);
+    font-weight: 100;
+}
+
+#main #nav a{
+    color: aliceblue;
+    font-weight: 100;
+    font-family:apple;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+
+/* MAIN cha CENTER */
+
+#main #center{
+    height:100%;
+    width:100%;
+}
+
+
+/*  MAIN cha CENTER cha PRO17 */
+
+#main #center #pro17 {
+    background-image:url(highlights_design_endframe__flnga0hibmeu_medium.jpg);
+    background-repeat: no-repeat;
+    background-position:vertical top;
+    background-size:cover;
+    justify-content: center;    
+    height:100%;
+    margin-top:2%;
+
+}
+#main #center #pro17 h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: apple;
+    padding-top: 30px;
+    font-size: 46px;
+}
+#main #center #pro17 h3{
+    text-align: center;
+    color: aliceblue;
+    font-family: apple;
+    font-size: 30px;
+    padding-top:10px ;
+    font-weight: 100;
+}
+/* #main #center #pro17 #links{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:35px 25px;
+} */
+#main #center #pro17 button{
+    border:1px solid white;
+    padding: 10px 20px;
+    border-radius:50px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+
+/* MAIN cha CENTER cha IPHONE AIR  */
+
+#main #center #iphoneAir {
+    background-image:url(iphone-air-digitalmat-gallery-2-202509.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    justify-content: center;  
+    height:100%;
+}
+#main #center #iphoneAir h1{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: apple;
+    padding-top: 30px;
+    font-size: 46px;
+}
+#main #center #iphoneAir h3{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: apple;
+    font-size: 30px;
+    padding-top:10px ;
+    font-weight: 100;
+}
+/* #main #center #iphoneAir #links{ */
+#main #center .links{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:35px 25px;
+}
+#main #center #iphoneAir button{
+    border:1px solid rgb(8, 8, 8);
+    background-color: rgb(97, 110, 110);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius:50px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+/* MAIN cha CENTER cha iphone17 */
+
+/* #main #center #iphone17 {
+    background-image:url(hero_iphone_17__fslo8k8lane6_medium.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size:contain;
+    justify-content: center;  
+    height:100%;
+    margin-bottom:50px;
+} */
+ #main #center #iphone17 {
+    background:linear-gradient( #f1f3f7 30%,white 70%);
+ }
+#main #center #iphone17 #hero_iphone17{
+    align-items: center;
+    position:relative;
+    left:25%;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    /* bottom:15%; */
+}
+#main #center #iphone17 h1{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: apple;
+    padding-top: 30px;
+    font-size: 46px;
+}
+#main #center #iphone17 h3{
+    text-align: center;
+    /* color:linear-gradient( to right bottom,rgb(167, 139, 204), rgb(123, 156, 226),rgb(133, 197, 80)); */
+    color: rgb(5, 5, 5);    
+    font-family: apple;
+    font-size: 35px;
+    padding-top:10px ;
+    font-weight: 300;
+}
+/* #main #center #iphone17 #links{ */
+#main #center .links{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:35px 25px;
+}
+#main #center #iphone17 button{
+    border:1px solid rgb(8, 8, 8);
+    background-color: rgb(97, 110, 110);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius:50px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+
+/* MAIN cha FOOTER */
+
+#main #footer{
+    position: fixed;
+    bottom: 0%;
+    height:40px;
+    width:100%;
+    background-color: rgb(48, 44, 44);
+    padding-top: 7px;
+}
+#main #footer a{
+    margin-left: 44%;
+    align-items: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 100;
+    font-family: apple;
+    text-decoration: none;
+}
