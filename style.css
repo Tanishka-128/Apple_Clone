@@ -132,7 +132,7 @@ html, body{
     margin:35px 25px;
 }
 #main #center #iphoneAir button{
-    border:1px solid rgb(8, 8, 8);
+    border:1px solid rgb(255, 255, 255);
     background-color: rgb(97, 110, 110);
     color: aliceblue;
     padding: 10px 20px;
@@ -155,13 +155,19 @@ html, body{
  #main #center #iphone17 {
     background:linear-gradient( #f1f3f7 30%,white 70%);
  }
+ /* #main #center #iphone17 img{
+    position: relative;
+    left:27%;
+    position-anchor: center;
+    left: 27%;
+ } */
 #main #center #iphone17 #hero_iphone17{
-    align-items: center;
     position:relative;
-    left:25%;
+    left:28%;
+    align-items: center;
     padding-bottom: 5%;
     border-radius: 50%;
-    /* bottom:15%; */
+    bottom:15%;
 }
 #main #center #iphone17 h1{
     text-align: center;
@@ -187,13 +193,89 @@ html, body{
     margin:35px 25px;
 }
 #main #center #iphone17 button{
-    border:1px solid rgb(8, 8, 8);
+    border:1px solid rgb(255, 255, 255);
     background-color: rgb(97, 110, 110);
     color: aliceblue;
     padding: 10px 20px;
     border-radius:50px;
     font-size:15px;
     cursor:pointer;
+}
+
+/* WINDOW SECTION */
+#window{
+    height:100%;
+    width:100%;
+    background-color: rgb(248, 248, 255);
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content:space-evenly; */
+}
+
+#main #center #window .window-text{
+    display: flex;
+    color: rgb(25, 27, 29);
+    font-family: apple;
+    font-size:18px;
+    padding-left:55px;
+    padding-top: 20px;
+    gap:10px
+}
+#main #center #window .window-text #red{
+    color:rgb(209, 60, 60)
+}
+#main #center #window .window-cards{
+    /* agar mujhe wo div pe kaam karna hai jisme wo cards present hai ya bol sakte hai ki agar mujhe wo cards ke aaju baaju wale section mai kuch kaam karna hai to mujhe is section mai kaam karna padega  */
+    display:flex;  
+    justify-content: space-evenly; 
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+#main #center #window .section{
+    /* section wala ye section sirf div pe kaam karega div ke aaju baaju mai ya bahar jo bhi changes karne hai ya bahar jo bhi kuch hai ye uspe kaam nahi karega...ye sirf div yaani jo cards hai usi pe kaam karega */
+    /* display:flex; */
+    background-color: rgb(0, 0, 0);
+    height:500px;
+    width:420px;
+    margin:20px;
+    border-radius: 20px;
+}
+#main #center #window #macbook{
+    background-image: url(store-card-40-macbook-pro-202510.jpg);
+    background-size: cover;
+    color: white;
+    font-family: apple;
+}
+#main #center #window #watch{
+    background-image: url(watch-card-50-watch-black-unity-band-202601.jpg);
+    background-size: cover;
+    color: white;
+    font-family: apple;
+}
+#main #center #window #ipad{
+    background-image: url(store-card-40-ipad-pro-202510.jpg);
+    background-size: cover;
+    color: white;
+    font-family: apple;
+}
+#main #center #window .name{
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#main #center #window .feature{
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-left: 30px;
+
+}
+#main #center #window .price{
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 8px;
+    padding-left: 30px;
 }
 
 
